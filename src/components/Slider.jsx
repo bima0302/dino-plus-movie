@@ -14,7 +14,7 @@ function Slider() {
     });
   };
   return (
-    <div className="flex overflow-x-auto w-full px-16 py-4">
+    <div className="flex overflow-x-auto w-full px-16 py-4 scrollbar-none">
       {movieList.map((item, index) => (
         <img
           src={IMAGE_BASE_URL + item.backdrop_path}
