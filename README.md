@@ -66,7 +66,7 @@ dino-plus-movie/
 
 ## Configuration
 
-The project uses Vite for fast and optimized development. The configuration can be found in `vite.config.js` file, where you can modify the build options, plugins, and other settings according to your requirements.
+The project uses Vite for fast and optimized development. The configuration can be found in the `vite.config.js` file, where you can modify the build options, plugins, and other settings according to your requirements.
 
 ## Dependencies
 
@@ -75,6 +75,7 @@ The main dependencies used in this project are:
 - React: A JavaScript library for building user interfaces.
 - Tailwind CSS: A utility-first CSS framework for rapidly building custom user interfaces.
 - Vite: A build tool that provides fast and optimized development setup for modern web projects.
+- [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api): An API that provides movie and TV show data.
 
 For a complete list of dependencies, refer to the `package.json` file.
 
@@ -102,3 +103,7 @@ For any questions or inquiries, you can reach out to the project maintainer:
 - GitHub: [bzizmza](https://github.com/bzizmza)
 
 We hope you enjoy using Dino Plus Movie! Happy movie exploration! 🎬🍿
+
+## API Usage
+
+Dino Plus Movie also utilizes the API from [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api) to fetch movie data, including details, ratings, and reviews. Please refer to the TMDb API documentation for more information on how to obtain an API key and use it in your project.
