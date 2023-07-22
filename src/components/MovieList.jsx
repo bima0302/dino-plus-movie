@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import GlobalAPI from "../services/GlobalAPI";
+import MovieCard from "./MovieCard";
 
 function MovieList(genreId) {
   const [movieList, setMovieList] = useState([]);
@@ -12,7 +13,13 @@ function MovieList(genreId) {
       setMovieList(resp.data.results);
     });
   };
-  return <div>MovieList</div>;
+  return (
+    <div className="flex overflow-x-auto gap-8 scrollbar-none">
+      {movieList.map((item, index) => (
+        <MovieCard movie={item} />
+      ))}
+    </div>
+  );
 }
 
 export default MovieList;
