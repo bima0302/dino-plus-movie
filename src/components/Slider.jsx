@@ -24,11 +24,11 @@ function Slider() {
   return (
     <div>
       <HiChevronLeft
-        className=" hidden md:block text-white text-[30px] absolute mx-8 mt-[150px] cursor-pointer"
+        className=" hidden md:block text-white text-[30px] absolute mx-8 mt-[150px] md:mt-[200px] cursor-pointer"
         onClick={() => sliderLeft(elementRef.current)}
       />
       <HiChevronRight
-        className=" hidden md:block text-white text-[30px] absolute mx-8 mt-[150px] cursor-pointer right-0"
+        className=" hidden md:block text-white text-[30px] absolute mx-8 mt-[150px] md:mt-[200px] cursor-pointer right-0"
         onClick={() => sliderRight(elementRef.current)}
       />
       <div
