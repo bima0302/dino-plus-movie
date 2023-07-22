@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import GlobalAPI from "../services/GlobalAPI";
 import MovieCard from "./MovieCard";
 
-function MovieList(genreId) {
+function MovieList(genreId, index_) {
   const [movieList, setMovieList] = useState([]);
   useEffect(() => {
     getMovieByGenreId();
