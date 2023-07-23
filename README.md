@@ -1,18 +1,8 @@
 # Dino Plus Movie
 
-Dino Plus Movie is a web application built using React, Tailwind CSS, and Vite. It allows users to explore and discover information about movies, including details, ratings, and reviews. The project aims to provide a user-friendly and visually appealing interface for movie enthusiasts.
+Dino Plus Movie is a web application built using React, Tailwind CSS, and Vite. The project aims to provide a user-friendly and visually appealing interface for movie enthusiasts.
 
 ![Dino Plus Movie Screenshot](screenshot.png)
-
-## Features
-
-- Browse a vast collection of movies
-- Search for movies by title, genre, or actor
-- View movie details, including synopsis, release date, and duration
-- See movie ratings and reviews from other users
-- Mark movies as favorites
-- Create and manage personalized watchlists
-- Get recommendations based on your movie preferences
 
 ## Installation
 
