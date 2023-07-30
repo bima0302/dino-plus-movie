@@ -42,16 +42,13 @@ The project structure is organized as follows:
 ```
 dino-plus-movie/
   ├── public/                  # Static assets
-  ├── src/                     # Application source code
-  │   ├── components/          # Reusable React components
-  │   ├── pages/               # Individual page components
-  │   ├── services/            # API services and data fetching
-  │   ├── styles/              # Global styles and Tailwind CSS configuration
-  │   └── utils/               # Utility functions
-  ├── .gitignore               # Git ignore file
-  ├── package.json             # Node.js dependencies and scripts
-  ├── README.md                # Project documentation (you are here!)
-  └── vite.config.js           # Vite configuration
+  └── src/                     # Application source code
+      ├───assets/              # Assets
+      │   ├───Images/
+      │   └───Videos/
+      ├── components/          # Reusable React components
+      ├── constants/           # Individual page components
+      └── services/            # API services and data fetching
 ```
 
 ## Configuration
